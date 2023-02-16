@@ -1,0 +1,6 @@
+streamlit == 1.18.1
+yfinance == 0.2.12
+pandas == 1.5.3
+datetime
+altair == 4.2.2
+matplotlib == 3.7.0
