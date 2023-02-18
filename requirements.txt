@@ -5,4 +5,4 @@ datetime
 altair == 4.2.2
 matplotlib == 3.7.0
 bs4
-request
+requests
