@@ -12,9 +12,9 @@ st.markdown('<h1 style="color: #;">Portafoglio Long-term</h1>',
 
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
-labels = 'Liquidità', 'Mondiale', 'Dax', 'Oro'
-sizes = [56.4, 15.7, 7.2, 20.9]
-explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
+labels = 'Liquidità', 'Mondiale', 'Dax', 'Japan', 'Oro'
+sizes = [46.2, 15.5, 7.2,10.2, 20.9]
+explode = (0, 0.1, 0,0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
 
 fig1, ax1 = plt.subplots()
 ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
